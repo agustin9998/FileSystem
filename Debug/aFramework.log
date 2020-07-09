@@ -1,0 +1,4 @@
+﻿  Directorios.cpp
+C:\Users\Agustin\Desktop\2019s1_OblA1_Parte2\Directorios.cpp(203,20): warning C4018:  '<': signed/unsigned mismatch
+C:\Users\Agustin\Desktop\2019s1_OblA1_Parte2\Directorios.cpp(203,20): warning C4018: C:\Users\Agustin\Desktop\2019s1_OblA1_Parte2\Directorios.cpp(147) : warning C4172: returning address of local variable or temporary: ret
+  aFramework.vcxproj -> C:\Users\Agustin\Desktop\2019s1_OblA1_Parte2\Debug\aFramework.exe

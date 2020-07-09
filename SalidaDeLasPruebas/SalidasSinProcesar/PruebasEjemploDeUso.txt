@@ -1,0 +1,58 @@
+-!-Ini::PRUEBAS Mkdir
+
+-!-0::0-OK-OK-Se crea el directorio 'Directorio1'.
+
+-!-1::0-OK-OK-Se crea el directorio 'Directorio2'.
+
+-!-2::0-OK-OK-Se crea el directorio 'Directorio11', dentro de 'Directorio1'.
+
+-!-3::0-OK-OK-Se crea el directorio 'Directorio12', dentro de 'Directorio1'.
+
+-!-4::0-OK-OK-Se crea el directorio 'Directorio21', dentro de 'Directorio2'.
+
+-!-5::0-OK-OK-Se crea el directorio 'Directorio22', dentro de 'Directorio2'.
+
+-!-6::0-OK-OK-Se crea el directorio 'Directorio211', dentro de 'Directorio21'.
+
+-!-7::0-OK-OK-Se crea el directorio 'Directorio2111', dentro de 'Directorio211'.
+.
+./directorio1
+./directorio1/directorio11
+./directorio1/directorio12
+
+-!-8::0-OK-OK-Se muestran todo el contenido del filesystem.
+-!-Fin::PRUEBAS Mkdir
+-!-Ini::PRUEBAS CreateFile
+
+-!-9::0-OK-OK-Se crea archivo1.txt en /.
+
+-!-10::0-OK-OK-Se crea archivo11.txt en /directorio1/directorio11.
+
+-!-11::0-OK-OK-Se crea archivo12.txt en /directorio1/directorio11.
+
+-!-12::0-OK-OK-Se crea archivo13.txt en /directorio1/directorio11.
+
+-!-13::0-OK-OK-Se crea archivo2111.txt en /directorio2/directorio21/directorio211/directorio2111.
+
+-!-14::0-OK-OK-Se crea archivo211.h en /directorio2/directorio21/directorio211.
+
+-!-15::0-OK-OK-Se crea archivo212.ppt en /directorio2/directorio21/directorio211.
+
+-!-16::0-OK-OK-Se crea archivo22.txt en /directorio2/directorio22.
+
+-!-17::0-OK-OK-Se crea Archivo22.txt en /directorio2/directorio22.
+
+-!-18::0-OK-OK-Se crea Archivo23.txt en /directorio2/directorio22.
+.
+.archivo1.txt
+./directorio1
+./directorio1/directorio11
+./directorio1/directorio11archivo11.txt
+./directorio1/directorio11archivo12.txt
+./directorio1/directorio11archivo13.txt
+./directorio1/directorio12
+
+-!-19::0-OK-OK-Se muestran todo el contenido del filesystem.
+-!-Fin::PRUEBAS CreateFile
+-!-Ini::PRUEBAS Dir
+directorio1
